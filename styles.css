@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.item {
+    background-color: royalblue;
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user { 
+    align-self: center;
+}
